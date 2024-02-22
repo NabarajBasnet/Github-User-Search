@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+}
+.Dark{
+    background-color: whitesmoke;
+    height: 100vh;
+    color: black;
+}
+.Dark .name-logo{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.Dark .theme-changer-1 p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.Light .name-logo{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.Light .theme-changer-1 p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.Light{
+    background-color: rgb(60, 60, 60);
+
+    height: 100vh;
+}
+.container-1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.user-details{
+    display: flex;
+    justify-content: center;
+}
+
+.serach-field{
+    display: flex;
+    align-items: center;
+}
+.serach-field img{
+    background-color: transparent;
+}
+.serach-field input{
+    background-color: transparent;
+    padding: 8px;
+    width: 350px;
+    outline: none;
+    border: none;
+    color: white;
+    caret-color: white;
+}
+
+.serach-field input::placeholder{
+    color: white;
+}
+.serach-field{
+    background-color: transparent;
+}
+
+.search-button{
+    background-color: transparent;
+}
+.search-button button{
+    cursor: pointer;
+    color: white;
+    padding: 9px;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(15, 92, 234);
+}
+
+.search-bar{
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    padding: 4px;
+    width: 460px;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(25, 22, 65);
+}
+
+.input-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user-detail-1-1{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+
+}
+.user-detail-1-1-1 ul{
+    background-color: transparent;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+.user-detail-1-1-1 ul li{
+    background-color: transparent;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+.user-detail-1-1-1 ul li h5{
+    background-color: transparent;
+    color: rgb(40, 140, 255);
+}
+.user-detail-1-1-1{
+    background-color: transparent;
+}
+
+.user-image{
+    background-color: transparent;
+}
+.user-image img{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+.user-detail-1-2 {
+    background-color: transparent;
+}
+
+.user-detail-1-2 ul{
+    background-color: transparent;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+.user-detail-1-2 ul li{
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.user-detail-content{
+    background-color: transparent;
+}
+.user-detail-content ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.user-detail-content ul li{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.user-detail-content ul li img{
+    margin-right: 9px;
+}
+
+
+
+.user-details-1{
+    background-color: transparent;
+}
+
+.user-detail-1-1-1 ul li,h4, h5, p{
+    background-color: transparent;
+}
+.user-bio{
+    background-color: transparent;
+}
+
+.user-detail-content ul{
+    background-color: transparent;
+}
+.user-detail-content ul li,img {
+    background-color: transparent;
+}
+
+.user-details{
+    background-color: rgb(25, 22, 65);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.user-details-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-1 .header{
+    display: flex;
+    width: 700px;
+    margin-top: 10px;
+}
+.header div{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.theme-changer-1{
+    display: flex;
+    align-items: center;
+}
+.theme-changer-1 p{
+    margin-right: 5px;
+}
+
+
+.user-bio p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.theme-changer{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* Creating responsive for mobile */
+
+@media screen and (max-width: 480px){
+    .container-1 .header{
+        display: flex;
+        width: 250px;
+    }
+    .search-bar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+
+    .serach-field{
+        width: 125px;
+        font-size: 9px;
+    }
+    .search-bar button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 65px;
+        height: 30px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .serach-field input{
+        height: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .serach-field input::placeholder{
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 9px;
+    }
+    .user-details-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100px;
+    }
+    .user-detail-1-1{
+        display: flex;
+    }
+    .user-image img{
+        width: 50px;
+    }
+    .user-detail-1-1-1{
+        font-size: 9px;
+    }
+    .user-bio p{
+        font-size: 9px;
+    }
+    .user-detail-1-2{
+        font-size: 9px;
+    }
+    .user-detail-1-2 ul li p{
+        font-size: small;
+    }
+    .user-detail-content{
+        font-size: xx-small;
+    }
+    .user-detail-content ul li{
+        margin-right: 20px;
+        font-size: 8px;
+
+    }
+    .user-detail-content ul li img{
+        width: 15px;
+    }
+    .user-details{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .user-detail-1-2{
+        margin-right: 40px;
+    }
+    .user-detail-1-2 ul li{
+        font-size: 9px;
+    }
+    .user-detail-1-2 ul li p{
+        font-size: 9px;
+    }
+}
+
