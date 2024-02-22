@@ -49,9 +49,9 @@ const Home = ()=>
 
                         <p>{themeFlag?('Dark'):('Light')}</p>
                         {themeFlag?(
-                            <img src='../../public/moon.png' width={25} />
+                            <img src='../../dist/assets/moon.png' width={25} />
                         ):(
-                            <img src='../../public/sun.png' width={25} />
+                            <img src='../../dist/assets/sun.png' width={25} />
                         )}
                         </div>
                         </>
@@ -63,7 +63,7 @@ const Home = ()=>
                 <div className="input-1">
                     <div className="search-bar">
                         <div className="serach-field">
-                            <img src='../../public/searchicon.png' width={20}/>
+                            <img src='../assets/searchicon.png' width={20}/>
                             <input type='text'
                             placeholder='Search Github user name...'
                             onKeyPress={(e)=>handleKeypress(e)}
@@ -107,10 +107,10 @@ const Home = ()=>
                         </div>
                         <div className="user-detail-content">
                             <ul>
-                                <li><img src='../../public/location.png' width={25}/><p>{user.location}</p></li>
-                                <li><img src='../../public/chain.png' width={25}/><p><a href={user.url}></a>{user.url}</p></li>
-                                <li><img src='../../public/twitter.png' width={25}/><p>{user.twitter_username===null?(<>Not Available</>):(<>{user.twitter_username}</>)}</p></li>
-                                <li><img src='../../public/company.png' width={25}/><p>{user.company===null?(<>Not available</>):(user.company)}</p></li>
+                                <li><img src='../../dist/location.png' width={25}/><p>{user.location}</p></li>
+                                <li><img src='../../dist/assets/chain.png' width={25}/><p><a href={user.url}></a>{user.url}</p></li>
+                                <li><img src='../../dist/assets/twitter.png' width={25}/><p>{user.twitter_username===null?(<>Not Available</>):(<>{user.twitter_username}</>)}</p></li>
+                                <li><img src='../../dist/company.png' width={25}/><p>{user.company===null?(<>Not available</>):(user.company)}</p></li>
                             </ul>
                         </div>
                     </div>
